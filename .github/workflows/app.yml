@@ -19,4 +19,4 @@ jobs:
      run: |
       aws s3 sync ./ s3://gha-deploy-static-app/ \
       --exclude "*"\
-      --include "index.html"
+      --include "index.html"|
