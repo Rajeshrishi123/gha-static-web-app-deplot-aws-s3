@@ -18,5 +18,5 @@ jobs:
    - name: deploying index.html file into s3 bucket
      run: |
       aws s3 sync ./ s3://gha-deploy-static-app/ \
-      --exclude "*"\
+      --exclude "*" \
       --include "index.html"|
